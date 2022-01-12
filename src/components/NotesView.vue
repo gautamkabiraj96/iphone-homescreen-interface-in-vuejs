@@ -8,15 +8,13 @@
         </div>
       </div>
       <div class="np-note-editor">
-        <textarea 
-          placeholder="Type something..." 
-          v-model="noteData" 
-          class="np-note-editor-area" />
-       <div 
-        @click="saveNote" 
-        class="np-save-btn">
-       Save
-       </div>
+        <textarea
+          placeholder="Type something..."
+          v-model="noteData"
+          @keyup.enter="saveNote"
+          class="np-note-editor-area"
+        />
+        <div @click="saveNote" class="np-save-btn">Save</div>
       </div>
     </div>
   </div>
