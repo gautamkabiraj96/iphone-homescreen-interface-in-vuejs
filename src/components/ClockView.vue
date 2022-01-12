@@ -10,6 +10,7 @@
     <div class="np-current-date">
       {{ currentDate }}
     </div>
+    <div class="np-credit">www.nightprogrammer.com</div>
     <div>
       <img class="np-clock-img" src="https://picsum.photos/210/240" />
     </div>
@@ -55,7 +56,7 @@ export default {
 <style>
 .np-clock-current-time {
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .np-current-date {
   padding-top: 10px;
@@ -63,5 +64,8 @@ export default {
 .np-clock-img {
   border-radius: 4px;
   margin-top: 15px;
+}
+.np-credit {
+  font-size: 12px;
 }
 </style>
