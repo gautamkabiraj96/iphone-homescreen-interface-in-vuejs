@@ -99,7 +99,7 @@ export default {
   display: inline-block;
   width: 24%;
   height: 50px;
-  transform: translateY(3px) scale(0.9);
+  transform: translateY(3px) translateX(4px) scale(0.9);
   text-align: center;
   transition: all 0.3s;
   cursor: pointer;
