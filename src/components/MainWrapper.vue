@@ -1,6 +1,7 @@
 <template>
   <div class="np-wrapper-container">
     <div v-if="selectedView == selectableViews.home">
+      <HomeWidget />
     </div>
     <div v-if="selectedView == selectableViews.phone">
       <PhoneView />
@@ -36,6 +37,7 @@ import PhoneView from "./PhoneView";
 import NotesView from "./NotesView";
 import GalleryView from "./GalleryView";
 import ClockView from "./ClockView";
+import HomeWidget from "./HomeWidget";
 
 export default {
   name: "MainWrapper",
@@ -44,6 +46,7 @@ export default {
     NotesView,
     GalleryView,
     ClockView,
+    HomeWidget,
   },
   data() {
     return {
