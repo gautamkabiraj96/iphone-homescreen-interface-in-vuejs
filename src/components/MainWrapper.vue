@@ -50,7 +50,7 @@ export default {
   },
   data() {
     return {
-      selectedView: null,
+      selectedView: -1,
       selectableViews: {
         home: -1,
         phone: 0,
